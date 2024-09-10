@@ -1,0 +1,85 @@
+/* scan page */
+.nav-pills .nav-link {
+    color: #000000;
+}
+.nav-pills .nav-link.active {
+    background-color: #e1e1e1;
+    color: #000000;
+}
+.navbar-brand {
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.card {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer{
+    background-color: #ececec;
+    padding: 10px 0;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+    color: #102a43;
+}
+/* index */
+.container {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.btn-success {
+    background-color: #ff964b;
+    border: #ff964b;
+}
+.btn-primary {
+    background-color: #ff964b;
+    border: #ff6a00;
+}
+
+.btn-primary:hover {
+    background-color: #ff6a00;
+    border-color: #ff6a00;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    font-weight: bold;
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    padding: 0 20px; 
+}
+
+nav a {
+    text-decoration: none; 
+    color: #454545;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff6a00;
+    
+}
+
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    flex: 1 1 calc(33.33% - 20px);
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
