@@ -1,7 +1,7 @@
 # MenuScanOrder
 
 ## Project Overview
-MenuScanOrder is an online ordering system designed for restaurants and cafes to streamline the ordering process and reduce labor costs. Customers can scan a QR code placed on their table to view the menu and place orders, while staff can manage orders through the platform.
+MenuScanOrder is a SaaS platform designed to streamline the ordering process for restaurants and cafes, reducing labor costs and enhancing customer experience. The system allows businesses to create and manage digital menus, which are stored in a relational database. Customers can scan a QR code placed on their table to view the menu and place orders. Staff members can log in to the platform to create, edit, and manage menu items, as well as monitor and update order statuses, ensuring a smooth and efficient ordering workflow.
 
 ## Tech Stack
 - **Framework**: CodeIgniter 4
